@@ -40,6 +40,6 @@ module.exports = {
        console.log('Sign in Success');
     },
     secret: async (req, res, next) => {
-        console.log('I managed to get here');
+        res.json('Secret research');
     }
 } 
